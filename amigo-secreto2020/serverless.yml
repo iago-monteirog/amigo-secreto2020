@@ -42,7 +42,7 @@ functions:
           cors: true
 
   deleteParticipant:
-    handler: src/handlers/participants.create
+    handler: src/handlers/participants.delete
     events:
       - http:
           path: /secret/{id}/participants/{participantsId}
